@@ -12,6 +12,7 @@
 
 ## Использованные технологии
 - Django framework
+- DRF
 - Django ORM
 - SQLite database
 - Bootstrap CSS framework
@@ -41,3 +42,5 @@ pip install -r requirements.txt
 ![Снимок экрана 2023-07-31 153331](https://github.com/ikboljon1/Clothing-Store-Django/assets/63257726/3befc14a-30a9-4932-9ac4-08224269eda3)
 ![Снимок экрана 2023-07-31 154221](https://github.com/ikboljon1/Clothing-Store-Django/assets/63257726/84dabff1-a9be-4bc8-ae76-f01fc3acd52e)
 ![Снимок экрана 2023-07-31 154247](https://github.com/ikboljon1/Clothing-Store-Django/assets/63257726/c4f3e7ca-e741-4afa-b78a-2c4a22b41eb2)
+![Снимок экрана 2023-07-31 235518](https://github.com/ikboljon1/Clothing-Store-Django/assets/63257726/73ec8cad-6c32-4297-a3df-daa2b4f11bd5)
+![Снимок экрана 2023-07-31 235544](https://github.com/ikboljon1/Clothing-Store-Django/assets/63257726/6896205d-305a-4aba-95a8-65132c00ad73)
