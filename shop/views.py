@@ -1,3 +1,8 @@
+from .serializers import *
+from .models import *
+# Create your views here.
+
+from rest_framework import generics
 from loguru import logger
 
 from django.contrib.auth import logout, login
@@ -12,6 +17,14 @@ from cart.forms import CartAddProductForm
 
 logger.add("debug.log", format="{time} {level} {message}", level="DEBUG", rotation="10 MB")
 
+class CategoryViewSet(generics.ListAPIView):
+    queryset = Category.objects.all()
+    serializer_class = CategorySerializer
+
+
+class ProductViewSet(generics.ListAPIView):
+    queryset = Product.objects.all() 
+    serializer_class = ProductSerializer
 
 class ShopHome(DataMixin, ListView):
     model = Product
