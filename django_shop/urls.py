@@ -8,6 +8,8 @@ urlpatterns = [
     path('cart/', include('cart.urls', namespace='cart')),
     path('orders/', include('orders.urls')),
     path('captcha/', include('captcha.urls')),
+    path('api/v1/product/', ProductViewSet.as_view()),
+    path('api/v1/category/', CategoryViewSet.as_view()),
     path('', include('shop.urls', namespace='shop')),  # копируем все urls из приложения shop
 
 ]
